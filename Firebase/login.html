@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/account.css">
+    <script type="module" src="js/auth.js" defer></script>
+</head>
+
+<body>
+    <form id="login-form">
+        <label for="user-email">Email</label>
+        <input id="user-email" type="email" placeholder="Enter your email" required>
+        <label for="user-password">Password</label>
+        <input id="user-password" type="password" placeholder="Enter your password" required>
+        <button type="submit" class="btn-submit">Login</button>
+        <p class="or">Or login with</p>
+        <div class="thirty-login">
+            <div class="item" id="google-btn">
+                <img src="icons/google.svg" alt="">
+                <span>Google</span>
+            </div>
+            <div class="item" id="github-btn">
+                <img src="icons/github.svg" alt="">
+                <span>Github</span>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
