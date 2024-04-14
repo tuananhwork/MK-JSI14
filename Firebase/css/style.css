@@ -1,0 +1,23 @@
+@import url(reset.css);
+
+nav {
+  height: 80px;
+  background-color: #36b3e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  color: #fff;
+}
+
+nav .logo {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+nav .navlist {
+  display: flex;
+  gap: 24px;
+  font-size: 18px;
+  font-weight: 600;
+}

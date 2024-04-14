@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Productions</title>
+    <link rel="stylesheet" href="css/upload-product.css">
+    <script type="module" src="js/upload-product.js"></script>
+</head>
+
+<body>
+    <button class="back-btn"><a href="index.html">Home</a></button>
+    <form action="" class="upload-product-form" id="upload-form">
+        <div class="img-container">
+            <label for="product-image" class="product-image-lable">
+                <img src="icons/upload.png" alt="">
+                Upload Image
+            </label>
+            <input id="product-image" type="file" required />
+            <img src="" alt="" id="product-image-show">
+        </div>
+        <input type="text" id="product-name" placeholder="Tên sản phẩm" required />
+        <input type="number" id="product-price" placeholder="Giá (USD)" required />
+        <textarea id="product-description" placeholder="Mô tả" required></textarea>
+        <button type="submit" id="upload-btn">Upload</button>
+    </form>
+</body>
+
+</html>

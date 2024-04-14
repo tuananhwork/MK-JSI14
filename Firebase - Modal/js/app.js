@@ -17,7 +17,6 @@ const productContainer = document.querySelector('.product-container');
         `;
 
       const signOutBtn = document.getElementById('logout-btn');
-      console.log(signOutBtn);
 
       signOutBtn.onclick = () => {
         signOut(auth)
